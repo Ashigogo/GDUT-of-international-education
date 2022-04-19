@@ -14,6 +14,14 @@
 - [大二](./public/大二/)
 - [大三](./public/大三/)
 - [社团活动申请资料](./public/社团活动申请资料/)
+## 推荐一些好用的工具
+- [IDEA](https://www.jetbrains.com/) ：编译器全家桶可以用学生认证申请一年免费
+- [稻壳阅读器](http://www.daokeyuedu.com/) ：简洁好用的阅读器，免费且支持电子书epub
+- [VMWARE WORKSTATION](https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html)  ：装虚拟机的工具，非免费
+- [TYPORA](https://github.com/typora) : 写markdown的工具，简洁美观
+- [GitHub desktop](https://desktop.github.com/) ：GitHub的桌面版本，英文界面
+- [牛客](https://www.nowcoder.com/) ：刷题投简历的网站
+- [Leetcode](https://leetcode-cn.com/) ：刷题学习的网站，在线编程（有点anyview的感觉~）
 ## 联系及贡献
 1. 通过issue反馈建议
 2. 提交PR一起维护本项目
