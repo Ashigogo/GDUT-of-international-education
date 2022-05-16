@@ -2,7 +2,7 @@
 ### Structured Streaming实践
 
 **Structured Streaming基本操作**
-**1. 编写Structured Streaming程序的基本步骤**
+1. 编写Structured Streaming程序的基本步骤
 - 实例任务：一个包含很多行英文语句的数据流源源不断到达，Structured Streaming
 程序对每行英文语句进行拆分，并统计每个单词出现的频率。
 
