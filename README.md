@@ -22,8 +22,9 @@
 - [VMWARE WORKSTATION](https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html)  ：装虚拟机的工具，非免费
 - [TYPORA](https://github.com/typora) : 写markdown的工具，简洁美观
 - [GitHub desktop](https://desktop.github.com/) ：GitHub的桌面版本，英文界面
-- [牛客](https://www.nowcoder.com/) ：刷题投简历的网站
+- [牛客](https://www.nowcoder.com/) ：刷面试题投简历的网站
 - [Leetcode](https://leetcode-cn.com/) ：刷题学习的网站，在线编程（有点anyview的感觉~）
+- [菜鸟教程](https://www.runoob.com/) ：菜鸟学习网站,如其名
 ## 联系及贡献
 1. 通过issue反馈建议
 2. 提交PR一起维护本项目
