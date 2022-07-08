@@ -1,0 +1,4 @@
+Linux命令大全https://www.linuxcool.com/
+开发者导航https://tools.frankfeekr.cn/
+数据库秋招github刷题仓库https://github.com/datawhalechina/wonderful-sql
+python算法秋招GitHub刷题仓库https://github.com/songyingxin/python-algorithm
