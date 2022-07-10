@@ -83,3 +83,54 @@ NOT IN
 AS P1)
 ```
 
+#### [511. 游戏玩法分析 I](https://leetcode.cn/problems/game-play-analysis-i/)
+
+活动表 `Activity`：
+
+| column name  | Type |
+| ------------ | ---- |
+| player_id    | int  |
+| device_id    | int  |
+| event_date   | date |
+| games_played | int  |
+
+表的主键是 (player_id, event_date)。
+这张表展示了一些游戏玩家在游戏平台上的行为活动。
+每行数据记录了一名玩家在退出平台之前，当天使用同一台设备登录平台后打开的游戏的数目（可能是 0 个）。
+
+写一条 SQL 查询语句获取每位玩家 **第一次登陆平台的日期**。
+
+```sql
+select player_id,min(event_date) first_login
+from activity
+group by playred_id
+```
+
+#### [512. 游戏玩法分析 II](https://leetcode.cn/problems/game-play-analysis-ii/)
+
+Table: `Activity`
+
+| column name  | Type |
+| ------------ | ---- |
+| player_id    | int  |
+| device_id    | int  |
+| event_date   | date |
+| games_played | int  |
+
+(player_id, event_date) 是这个表的两个主键
+这个表显示的是某些游戏玩家的游戏活动情况
+每一行是在某天使用某个设备登出之前登录并玩多个游戏（可能为0）的玩家的记录
+
+请编写一个 SQL 查询，描述每一个玩家首次登陆的设备名称
+
+```sql
+select player_id,device_id
+from activity
+where (player_id,event_date)
+in (
+    select player_id,min(event_date)
+    from activity
+    group by player_id
+   )
+```
+
