@@ -72,15 +72,16 @@ id是该表的主键列。
 
 ```sql
 题解:找到最小id,其他的删除,创建为临时表
-DELETE FROM PERSON
-WHERE ID 
-NOT IN
-(SELECT * FROM
-  ( SELECT MIN(ID)
-    FROM PERSON
-    GROUP BY EMAIL
-  ) 
-AS P1)
+delete from person
+where id 
+not in
+(select * from
+    (select min(id)
+     from person
+     group by email
+    )
+    as p1
+)
 ```
 
 #### [511. 游戏玩法分析 I](https://leetcode.cn/problems/game-play-analysis-i/)
